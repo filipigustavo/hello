@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save hello
+npm install --save filipigustavo/hello
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save hello
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'hello'
-import 'hello/dist/index.css'
+import { Hello } from '@filipigustavo/hello'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Hello />
   }
 }
 ```
