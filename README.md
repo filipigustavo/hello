@@ -13,17 +13,15 @@ npm install --save filipigustavo/hello
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
 import { Hello } from '@filipigustavo/hello'
 
-class Example extends Component {
-  render() {
-    return <Hello />
-  }
+const Example = () => {
+  return (<Hello />)
 }
 ```
 
 ## License
 
-MIT © [Filipi Gustavo &lt;email@filipigustavo.com.br&gt;](https://github.com/Filipi Gustavo &lt;email@filipigustavo.com.br&gt;)
+MIT © [Filipi Gustavo &lt;email@filipigustavo.com.br&gt;](https://github.com/filipigustavo)
